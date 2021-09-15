@@ -1,0 +1,89 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --base-color: #f8472f;
+}
+*{
+    box-sizing: inherit;
+    
+}
+html{
+    /* được hiểu là 16px */
+    font-size: 62.5%;
+    font-family: ' Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.4rem;
+    scroll-behavior: smooth;
+}
+
+/* RESPONSIVE */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 0px -5px;
+    margin: 10px 0px;
+}
+.grid__column-2{
+    width: 16.6%;
+}
+.grid__column-2-4{
+    width: 20%;
+    padding: 0px 5px;
+    display: flex;
+}
+.grid__column-10{
+    width: 83.4%;
+}
+
+
+/* COLOR */
+.cl_white{
+    color: white;
+}
+.cl_gray{
+    color: gray;
+}
+
+/* Animation */
+@keyframes fadeIn {
+from{ opacity: 0.2;
+    
+
+} 
+to{opacity: 1;
+
+}
+}
+@keyframes popUp{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+
+.cl_black{
+    color: black;
+}
+/* LIST STYLE */
+.noStyle{
+    list-style: none; padding: 0px;
+}
+.noDecor{
+    text-decoration: none;
+}
