@@ -1,0 +1,27 @@
+/* mobile and tablet */
+@media (max-width:1024px)
+{
+    .hide-on-mobile-tablet{
+        display: none ;
+    }
+    .font_custom{
+        font-size:0.2em;
+    }
+    .product__btn{
+        padding: 0px 6px;
+    }
+
+
+}
+/* mobile */
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
